@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theme Customizer</title>
+  <style>
+    body {
+      background: rgba(0, 0, 0, 0.9);
+      color: white;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      backdrop-filter: blur(10px);
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .color-picker {
+      margin-bottom: 10px;
+    }
+    button {
+      background: #007BFF;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h2>Theme Customizer</h2>
+  <div class="color-picker">
+    <label for="background">Background Color:</label>
+    <input type="color" id="background">
+  </div>
+  <div class="color-picker">
+    <label for="text">Text Color:</label>
+    <input type="color" id="text">
+  </div>
+  <button id="save">Save</button>
+  <button id="reset">Reset</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>

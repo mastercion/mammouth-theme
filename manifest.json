@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Mammouth.ai Theme Customizer",
+    "version": "1.0",
+    "description": "Adds a theme customizer to Mammouth.ai",
+    "permissions": ["activeTab", "scripting", "storage"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://mammouth.ai/*"],
+        "js": ["content.js"],
+        "css": ["styles.css"]
+      }
+    ]
+  }
+  
