@@ -150,15 +150,15 @@ const defaultTheme = {
       <input type="color" id="inputText">
     </div>
     <div class="color-picker">
-      <label for="bgWhite">.bg-white Background Color:</label>
+      <label for="bgWhite">whiteBg Background Color:</label>
       <input type="color" id="bgWhite">
     </div>
     <div class="color-picker">
-      <label for="p4">.p-4 Background Color:</label>
+      <label for="p4">p-4 Background Color:</label>
       <input type="color" id="p4">
     </div>
     <div class="color-picker">
-      <label for="whitespacePre">.whitespace-pre-line Background Color:</label>
+      <label for="whitespacePre">whitespacePre Background Color:</label>
       <input type="color" id="whitespacePre">
     </div>
     <button id="save">Save</button>
